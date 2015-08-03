@@ -3,13 +3,13 @@ html body{
 	height:2000px;
 	padding:0px;
 	margin:0px;
-	border:solid 2px blue;
+	border:solid 2px none;
 }
 
 #container{
 	width:1610px;
 	height:2000px;
-	border:solid 2px red;
+	border:solid 2px none;
 	margin:0 auto;
 }
 
@@ -18,7 +18,7 @@ html body{
 	height:600px;
 	margin-top:0px;
 	margin-bottom:0px;
-	background-color:lightblue;
+	background-color:white;
 }
 
 .header_container{
@@ -26,13 +26,13 @@ html body{
 	position:relative;
 	height:100%;
 	width:100%;
-	background-color: blue;
+	background-color: white;
 }
 #inner_header{
 	display:table-cell;
 	width:1500px;
 	height:300px;
-	background-color:green;
+	background-color:#49FF66;
 	vertical-align:middle;
 }
 
@@ -40,7 +40,7 @@ h2 {
 	display:block;
 	line-height: 1:1;
 	text-rendering:optimizelegibility;
-  	font-size:60px;
+  	font-size:70px;
   	font-weight:700;
   	text-align: center;
 }
@@ -89,4 +89,74 @@ nav ul li {
 	font-size:14pt;
 	vertical-align: middle;
 }
+
+.work {
+	background-color: #FBF6FF;
+	width:1610px;
+	height:600px;
+	margin:0;
+	border:0;
+	text-align: center;
+	border-top: solid 2px #FBF6FF;
+	border-bottom: solid 2px #FBF6FF;
+}
+
+.play {
+	background-color: #C8D2FF;
+	width:1610px;
+	height:800px;
+	margin:0;
+	border:0;
+	text-align: center;
+	border-top: solid 2px #C8D2FF;
+	border-bottom: solid 2px none;
+}
+
+#newyork{
+	width:30%;
+	height:720px;
+	margin:0px;
+	float:left;
+	display:inline-block;
+	background-color: none;
+	border-top: 1px solid white;
+	border
+}
+
+#chicago{
+	width:30%;
+	height:720px;
+	margin:0px;
+	display:inline-block;
+	background-color: none;
+	border-left: 1px solid none;
+	border-right: 1px solid none;
+	border-top: 1px solid white;
+}
+
+#london{
+	width:30%;
+	height:720px;
+	margin:0px;
+	float:right;
+	display:inline-block;
+	background-color: none;
+	border-top: 1px solid white;
+}
+
+a:link, a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-transform: uppercase;
+	color:white;
+}
+
+img {
+	height:400px;
+	width:60%;
+}
+
 
