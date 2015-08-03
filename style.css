@@ -1,0 +1,20 @@
+html body{
+	width:1400px;
+	height:2000px;
+	padding:0px;
+	margin:0px;
+	border:solid 2px blue;
+}
+
+#container{
+	width:1400px;
+	height:2000px;
+	border:solid 2px blue;
+	margin:0 auto;
+}
+
+#header{
+	width:1400px;
+	height:800px;
+	background-color: red;
+}
